@@ -5,9 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="./style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style type="text/css">
+        button {
+            position: absolute;
+            top: 90.5%;
+            right: 52.5%;
+        }
+
+        body {
+            height: 800px;
+            overflow-x: hidden;
+            background-color: #F6F2FF;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 800px;
+
+        }
+
+        .hero1 {
+            float: left;
+        }
+
+        .hero1 h1 {
+            width: 570px;
+            height: 183px;
+            margin-left: 150px;
+            margin-top: 120px;
+            font-size: 52px;
+            font-weight: 700;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 60.9px;
+        }
+
+        .purple {
+            color: rgb(192, 109, 212);
+        }
+
+        .red {
+            color: rgb(255, 123, 118);
+        }
+
+        .sp {
+            width: 540px;
+            height: 635px;
+            transform: rotate(-9.35deg)translateY(-60px);
+            position: relative;
+            margin-left: 10px;
+            overflow: hidden;
+
+
+        }
+
+        .right {
+            float: left;
+            margin-left: 30px;
+            /* margin-top: 20px; */
+        }
+
+        .mac {
+            position: absolute;
+            right: 8%;
+            top: 30%;
+        }
+
+
+        header {
+            display: flex;
+
+        }
+
+        .logo {
+
+            margin-top: 30px;
+            margin-left: 150px;
+            ;
+        }
+
+        .nav-link {
+            color: black;
+        }
+
+        .nav li {
+            transform: translateY(-30px)translateX(180px);
+            margin-right: 17px;
+            font-size: 17px;
+            font-weight: 400;
+
+        }
+
+        .button {
+            float: right;
+            transform: translateY(-80px)
+        }
+
+
+
+
+        p {
+            width: 470px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21.09px;
+            margin-left: 150px;
+            margin-top: 50px;
+        }
+
+        .subs {
+            margin-left: 150px;
+            margin-top: 50px;
+            width: 470px;
+            height: 50px;
+            border: none;
+            border-radius: 25px;
+            position: relative;
+        }
+
+        .subs::placeholder {
+            padding-left: 20px;
+            color: rgba(180, 180, 180, 0.548);
+        }
+
+        .subi img {
+            margin-left: 180px;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,23 +158,29 @@
         </li>
     </ul>
     <img class="button" src="./images/button.png">
-    <div class="hero">
-        
-        <div class="images">
-        </div>
+
+    <div class="hero1">
+
+
         <h1>Work <span class="purple"> Remotely</span> in your home or any other places with<span class="red">
                 Figma</span></h1>
         <p>Want to start your career in design? Join the Figma community — improve your skills and knowledge.</P>
-        <!-- <input class="subs" type="text" placeholder="Enter Your Email Address" />
-        <button class="subee">  Subscribe</button> --><img class="subi" src="./images/Subscribe2.png">
+        <input class="subs" type="text" placeholder="Enter Your Email Address" />
+        <button
+            style="border: none; border-radius: 25px; width: 110px; height:45px ; background-image: linear-gradient(to right, #DA22FF,#9733EE);color: white;">
+            Subscribe</button>
+    </div>
+    <div class="right">
+        <img class="sp" src="./images/41480bbfc3b6a83a3943e16375ff256c.png">
+        <img class="mac" src="./images/iMac 24 inch.png">
     </div>
 
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
